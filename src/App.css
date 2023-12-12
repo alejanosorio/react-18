@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+font-family: sans-serif;
+background: rgb(16, 10, 112);
+background: linear-gradient(90deg, rgb(115, 114, 126)
+0%, rgba(66,101,124,0.8463585263206845) 46%,
+ rgb(8, 203, 241) 100%); 
+min-height: 100vh;
+position: relative;
+width: 100%;
+}
+h1{
+    text-align: center;
+}
+p{
+display: flex;
+justify-content: flex-end;
+margin: 5px;
+}
+button{
+text-decoration: none;
+border: none;
+padding: 5px;
+background: none;
+outline: 1px solid black;
+width: 100%;
+cursor: pointer;
+color: black;
+border-radius: 5px;
+margin-top: 5px;
+
+}
+input{
+    outline: none;
+    padding: 5px;
+    margin-top: 40px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1em;
+   
+   
+   
+}
+input:focus{
+    background: rgb(250, 247, 247);
+    border-radius: 3px;
+}
+button:hover{
+    color: black;
+    background: rgb(250, 247, 247);
+}
+label{
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+select{
+    margin-top: 5px;
+}
+.cont-table{
+
+  width: 100%;
+  height: auto;
+  margin-bottom: 90px;
+        
+    }
+table, th, td {
+   
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    height: auto;
+    
+  }
+  th {
+    height: 70px;
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+.boton {
+        width: 100%;
+        background-color: brown;
+        border-radius: 4px;
+        color: aliceblue;
+    }
+.btn{
+    width: 10%;
+    color: black;
+    margin-left: 50px;
+ 
+}

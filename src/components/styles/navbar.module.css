@@ -1,0 +1,32 @@
+.header{
+    height: 60px;
+    background: rgb(138, 136, 184);
+    background: linear-gradient(90deg, rgb(134, 131, 190) 0%, rgba(66,101,124,1) 35%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  .menu{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-self: center;
+  list-style: none;
+
+  
+  }
+  .item{
+  font-size: 18px;
+  margin:10px;
+  text-decoration: none;
+  width: max-content;
+  color: black;
+  }
+
+  .item:hover{
+  color: azure;
+    transition: 0.5s;
+  }

@@ -1,0 +1,21 @@
+.pie{
+background:black;
+color: white;
+padding: 1em 0;
+text-align: center;
+margin-top: auto;
+position: fixed;
+bottom: 0;
+width: 100%;
+height: auto;
+
+}
+.container{
+    text-align: center;
+    padding: 3px;
+}
+a{
+    text-decoration: none;
+color: brown;
+}
+
